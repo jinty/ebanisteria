@@ -1,0 +1,22 @@
+# Section title
+title = "Galería"
+
+[[projects]]
+    name = "Mobiliario Interiores"
+    folder = "interiores"
+
+[[projects]]
+    name = "Mobiliario exteriores"
+    folder = "exteriores"
+
+[[projects]]
+    name = "Mobiliario oficinas"
+    folder = "oficinas"
+
+[[projects]]
+    name = "Proyectos de Interiorismo"
+    folder = "interiorismo"
+
+[[projects]]
+    name = "Escaleras"
+    folder = "escaleras"
