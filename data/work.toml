@@ -4,6 +4,7 @@ title = "Galería"
 [[projects]]
     name = "Mobiliario Interiores"
     folder = "interiores"
+    thumb = "aparador_600.gif"
 
 [[projects]]
     name = "Mobiliario exteriores"
