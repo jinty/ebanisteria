@@ -25,7 +25,7 @@ theme = "artists"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "raquelmarinezquerro@yahoo.es"
+	email = "carlos.cordon@yahoo.es"
 
 
 	# Header an navigation
@@ -42,8 +42,7 @@ theme = "artists"
 	#
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
-		title = "QUIENES SOMOS"
-		bio = "Somos una empresa dedicada a la carpintería y ebanistería con mas de 18 años de experiencia profesional. Nos dedicamos a la fabricación e instalación de muebles a medida, puertas,ventanas, cocinas, suelos, escaleras, armarios empotrados...\r\nAsesorando en la distribución y cuidando mucho los acabados para la mayor satisfacción del cliente. Colaboramos con arquitectos, interioristas, escenógrafos, diseñadores y empresas de reformas."
+		title = "Quienes Somos"
 
 	# Contact secion
 	[params.contact]
