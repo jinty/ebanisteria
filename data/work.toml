@@ -9,15 +9,19 @@ title = "Galería"
 [[projects]]
     name = "Mobiliario exteriores"
     folder = "exteriores"
+    thumb = "cuna_800.gif"
 
 [[projects]]
     name = "Mobiliario oficinas"
     folder = "oficinas"
+    thumb = "mesita_800.gif"
 
 [[projects]]
     name = "Proyectos de Interiorismo"
     folder = "interiorismo"
+    thumb = "mueble-bano_600.gif"
 
 [[projects]]
     name = "Escaleras"
     folder = "escaleras"
+    thumb = "cuna_800.gif"
