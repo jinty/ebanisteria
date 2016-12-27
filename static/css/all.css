@@ -932,7 +932,8 @@ footer {
     position: relative;
     display: block;
     float: left;
-    width: 25%;
+    margin: 1%;
+    width: 23%;
     cursor: pointer; }
     .thumb-container label .thumb-unit {
       display: block;
@@ -942,7 +943,9 @@ footer {
         max-width: 100%; }
     @media screen and (max-width: 760px) {
       .thumb-container label {
-        width: 50%; } }
+    margin: 1%;
+        width: 48%; 
+	} }
     .thumb-container label .thumb-overlay {
       position: absolute;
       -webkit-box-align: center;
