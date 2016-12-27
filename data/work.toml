@@ -4,7 +4,7 @@ title = "Galería"
 [[projects]]
     name = "Mobiliario Interiores"
     folder = "interiores"
-    thumb = "aparador_600.gif"
+    thumb = "cuna_800.gif"
 
 [[projects]]
     name = "Mobiliario exteriores"
@@ -14,12 +14,12 @@ title = "Galería"
 [[projects]]
     name = "Mobiliario oficinas"
     folder = "oficinas"
-    thumb = "mesita_800.gif"
+    thumb = "cuna_800.gif"
 
 [[projects]]
     name = "Proyectos de Interiorismo"
     folder = "interiorismo"
-    thumb = "mueble-bano_600.gif"
+    thumb = "cuna_800.gif"
 
 [[projects]]
     name = "Escaleras"
