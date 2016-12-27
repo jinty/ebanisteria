@@ -1,3 +1,40 @@
+@font-face {
+    font-family: 'dosis';
+    src: url('{{#asset}}dosis-light-webfont.woff2{{/asset}}') format('woff2'),
+         url('{{#asset}}dosis-light-webfont.woff{{/asset}}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosis';
+    src: url('{{#asset}}dosis-bold-webfont.woff2{{/asset}}') format('woff2'),
+         url('{{#asset}}dosis-bold-webfont.woff{{/asset}}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('{{#asset}}quicksand-regular-webfont.woff2{{/asset}}') format('woff2'),
+         url('{{#asset}}quicksand-regular-webfont.woff{{/asset}}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('{{#asset}}quicksand-bold-webfont.woff2{{/asset}}') format('woff2'),
+         url('{{#asset}}quicksand-bold-webfont.woff{{/asset}}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -492,8 +529,10 @@ td, th {
  * ------------------------------------	 */
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
+  font-family: quicksand;
+  text-transform: uppercase;
   color: #333;
-  font-weight: bold; }
+}
 
 .gigantic {
   font-size: 110px;
@@ -568,9 +607,8 @@ body {
  * ------------------------------------	 */
 body {
   background: #fff;
-  font-size: 14px;
   line-height: 1.6;
-  font-family: "Open Sans" sans-serif;
+  font-family: dosis;
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
