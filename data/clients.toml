@@ -8,3 +8,10 @@ title = "Clients"
     quote  = "**Ebanisteria Cordon es calidad de lo mas alto.** Estamos muy feliz con el proyecto que nos lleve a cabo."
     logo   = "logo1.png"
 
+[[list]]
+    avatar = "face-aaroni.jpg"
+    name   = "Pepe Gonzalez"
+    title  = "Director de Listo, OnToText Ind."
+    quote  = "**Una experiencia inolvidable**"
+    logo   = "logo1.png"
+

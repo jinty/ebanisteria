@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://carloscordon.github.io/"
-languageCode = "en-us"
+languageCode = "es-es"
 title = "Ebanistería Cordón"
 theme = "artists"
 

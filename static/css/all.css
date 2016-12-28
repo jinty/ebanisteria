@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'dosis';
-    src: url('{{#asset}}dosis-light-webfont.woff2{{/asset}}') format('woff2'),
-         url('{{#asset}}dosis-light-webfont.woff{{/asset}}') format('woff');
+    src: url('/fonts/dosis-light-webfont.woff2') format('woff2'),
+         url('/fonts/dosis-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'dosis';
-    src: url('{{#asset}}dosis-bold-webfont.woff2{{/asset}}') format('woff2'),
-         url('{{#asset}}dosis-bold-webfont.woff{{/asset}}') format('woff');
+    src: url('/fonts/dosis-bold-webfont.woff2') format('woff2'),
+         url('/fonts/dosis-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-weight: bold;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'quicksand';
-    src: url('{{#asset}}quicksand-regular-webfont.woff2{{/asset}}') format('woff2'),
-         url('{{#asset}}quicksand-regular-webfont.woff{{/asset}}') format('woff');
+    src: url('/fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('/fonts/quicksand-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'quicksand';
-    src: url('{{#asset}}quicksand-bold-webfont.woff2{{/asset}}') format('woff2'),
-         url('{{#asset}}quicksand-bold-webfont.woff{{/asset}}') format('woff');
+    src: url('/fonts/quicksand-bold-webfont.woff2') format('woff2'),
+         url('/fonts/quicksand-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-weight: bold;
@@ -97,7 +97,10 @@ sub {
   bottom: -.25em; }
 
 img {
-  border: 0; }
+	max-width: 100%;
+	border: 0;
+	display: block;
+}
 
 svg:not(:root) {
   overflow: hidden; }
@@ -335,6 +338,10 @@ p {
   max-width: 35em;
   margin: 0px auto;
   padding: 0 0 1em 0;
+}
+
+p > img {
+	margin: 2% 0%;
 }
 
 em {
@@ -715,7 +722,6 @@ footer {
 }
 .thumb-container label .thumb-unit img {
 	display: block;
-	max-width: 100%;
 }
 @media screen and (max-width: 760px) {
 	.thumb-container label {
@@ -788,7 +794,6 @@ footer {
     line-height: 1.2;
     margin: 0 0 20px; }
   .work-container img {
-    max-width: 100%;
     margin-bottom: 20px; }
   .work-container .work-return {
     height: 40px;
