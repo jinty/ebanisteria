@@ -314,15 +314,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px; }
 
 .large, h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.14; }
 
 .bigger, h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.38; }
 
 .big, h4 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   line-height: 1.38; }
 
 .small, small {
@@ -330,6 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2; }
 
 p {
+  font-size: 1.2rem;
   max-width: 35em;
   margin: 0px auto;
   padding: 0 0 1em 0;
@@ -344,25 +345,6 @@ p {
 		font-size: 2rem;
 	}
 
-	.large, h2 {
-		font-size: 1.5rem;
-	}
-
-	.bigger, h3 {
-		font-size: 1rem;
-	}
-
-	.big, h4 {
-		font-size: 0.9rem;
-	}
-
-	.small, small {
-		font-size: 0.5rem;
-	}
-
-	p {
-		font-size: 0.9rem;
-	}
 }
 
 
@@ -620,7 +602,6 @@ footer {
     .face-lockup [class^="icon-"] {
       margin: 10px 9%; } }
 .blurb {
-  font-size: 1.8rem;
   text-align: center;
   font-weight: 300;
 }
