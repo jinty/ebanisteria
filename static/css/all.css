@@ -73,10 +73,6 @@ b, strong {
 dfn {
   font-style: italic; }
 
-h1 {
-  font-size: 2em;
-  margin: .67em 0; }
-
 mark {
   background: #ff0;
   color: #000; }
@@ -118,7 +114,7 @@ pre {
 
 code, kbd, pre, samp {
   font-family: monospace,monospace;
-  font-size: 1em; }
+  font-size: 1rem; }
 
 button, input, optgroup, select, textarea {
   color: inherit;
@@ -215,7 +211,7 @@ td, th {
 
 .loader {
   margin: 8em auto;
-  font-size: 10px;
+  font-size: 0.7rem;
   position: relative;
   text-indent: -9999em;
   -webkit-animation-delay: 0.16s;
@@ -307,31 +303,30 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #333;
 }
-
 .gigantic {
-  font-size: 110px;
+  font-size: 6rem;
   line-height: 1.09;
   letter-spacing: -2px; }
 
 .huge, h1 {
-  font-size: 4em;
+  font-size: 4rem;
   line-height: 1.05;
   letter-spacing: -1px; }
 
 .large, h2 {
-  font-size: 3em;
+  font-size: 3rem;
   line-height: 1.14; }
 
 .bigger, h3 {
-  font-size: 2em;
+  font-size: 2rem;
   line-height: 1.38; }
 
 .big, h4 {
-  font-size: 22px;
+  font-size: 1.8rem;
   line-height: 1.38; }
 
 .small, small {
-  font-size: 10px;
+  font-size: 0.7rem;
   line-height: 1.2; }
 
 p {
@@ -339,6 +334,37 @@ p {
   margin: 0px auto;
   padding: 0 0 1em 0;
 }
+
+@media (max-width: 25rem) {
+	.gigantic {
+		font-size: 3rem;
+	}
+
+	.huge, h1 {
+		font-size: 2rem;
+	}
+
+	.large, h2 {
+		font-size: 1.5rem;
+	}
+
+	.bigger, h3 {
+		font-size: 1rem;
+	}
+
+	.big, h4 {
+		font-size: 0.9rem;
+	}
+
+	.small, small {
+		font-size: 0.5rem;
+	}
+
+	p {
+		font-size: 0.9rem;
+	}
+}
+
 
 p > img {
 	margin: 2% 0%;
@@ -449,7 +475,6 @@ header {
         color: black; }
   header h1 {
     text-align: center;
-    font-size: 72px;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
@@ -490,7 +515,7 @@ footer {
       footer .lockup .content-wrap .copyright {
         margin: 0;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 1rem;
         color: rgba(0, 0, 0, 0.4); }
       footer .lockup .content-wrap a {
         color: rgba(0, 0, 0, 0.5);
@@ -595,7 +620,7 @@ footer {
     .face-lockup [class^="icon-"] {
       margin: 10px 9%; } }
 .blurb {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: 300;
 }
@@ -768,7 +793,7 @@ footer {
 	padding: 0 9%;
 	color: red;
 	font-weight: 300;
-	font-size: 1.8em;
+	font-size: 1.3rem;
 	text-transform: uppercase;
 	line-height: 1.2;
 }
@@ -790,7 +815,7 @@ footer {
     color: #c99065;
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 2rem;
     line-height: 1.2;
     margin: 0 0 20px; }
   .work-container img {
@@ -846,11 +871,11 @@ footer {
         letter-spacing: 1px; }
       .clients-belt .client-unit .client-face .client-title {
         font-style: normal;
-        font-size: 12px;
+        font-size: 1rem;
         color: #999; }
     .clients-belt .client-unit .client-content {
-      font-size: 18px;
-      line-height: 36px;
+      font-size: 1.3rem;
+      line-height: 2rem;
       font-weight: 300;
       margin-top: -10px;
       position: relative; }
@@ -1015,7 +1040,7 @@ footer {
     line-height: 50px;
     color: #c99065;
     border-radius: 50%;
-    font-size: 28px;
+    font-size: 2rem;
     margin: 20px;
     position: relative; }
     .social-links a:after {
@@ -1050,7 +1075,7 @@ footer {
 
 .biglink {
   display: inline-block;
-  font-size: 72px;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1;
   width: 90%;
@@ -1070,7 +1095,7 @@ form {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    font-size: 16px; }
+    font-size: 1.2rem; }
     form input:focus, form textarea:focus {
       outline: none;
       border-color: #e1c285; }
@@ -1082,7 +1107,7 @@ form {
   form [type="submit"] {
     background: #c99065;
     color: white;
-    font-size: 18px;
+    font-size: 1.3rem;
     text-transform: uppercase;
     width: 33%; }
     form [type="submit"]:hover {
@@ -1116,4 +1141,5 @@ form {
   background: #e5eaee;
   text-align: center; }
   .form-success p {
-    font-size: 18px; }
+    font-size: 1.3rem;
+}
