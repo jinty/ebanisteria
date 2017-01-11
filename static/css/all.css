@@ -436,23 +436,28 @@ header, footer {
   background-blend-mode: overlay, normal; }
 
 header {
-  background-position: 30px 20px, 50% 50%;
-  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
-  padding-bottom: 50px; }
-  header .logo {
-    height: 50px;
-    width: 50px;
-    float: left;
-    margin: 10px 0 0 30px; }
-    header .logo path {
-      fill: rgba(0, 0, 0, 0.4); }
-  header nav {
-    float: right;
-    padding: 30px 30px 0 0; }
-    header nav a {
-      display: inline-block;
-      margin-left: 20px;
-      color: rgba(0, 0, 0, 0.7); }
+	text-align: center;
+	background-position: 30px 20px, 50% 50%;
+	background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
+	padding-bottom: 50px;
+}
+header .logo {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin: 10px 0 0 30px;
+}
+header .logo path {
+	fill: rgba(0, 0, 0, 0.4);
+}
+header nav {
+	display: inline-block;
+}
+header nav a {
+	display: inline-block;
+	padding: 0px 1em;
+	color: rgba(0, 0, 0, 0.7);
+}
       header nav a:hover {
         color: black; }
   header h1 {
@@ -466,8 +471,7 @@ header {
     padding-top: 100px; }
     header h1 span {
       display: inline-block;
-      padding: 0.2em 0.5em;
-      border: white solid 10px; }
+      padding: 0.2em 0.5em;}
   header .kicker {
     text-align: center;
     letter-spacing: 0.05em;
