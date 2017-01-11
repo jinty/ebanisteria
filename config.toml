@@ -35,7 +35,6 @@ theme = "artists"
 	# But keep the original filename!
 	[params.header]
 		title = "Ebanistería Cordón"
-		shortBio = "Ebanistería sin compromisos"
 
 
 	# About section
