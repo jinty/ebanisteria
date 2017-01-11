@@ -44,7 +44,7 @@ html {
 body {
   margin: 0; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, section, summary {
   display: block; }
 
 audio, canvas, progress, video {
@@ -425,18 +425,18 @@ fieldset {
   .alt-section h3 {
     color: #d7ae5c; }
 
-h3, header nav a, header .kicker, footer .lockup .content-wrap a {
+h3, nav.main a, header .kicker, footer .lockup .content-wrap a {
   font-weight: 700;
   text-transform: uppercase; }
 
 header, footer {
+	text-align: center;
   background-repeat: no-repeat, no-repeat;
   background-size: 50px 50px, cover;
   background-position: 30px 50px, 50% 50%;
   background-blend-mode: overlay, normal; }
 
 header {
-	text-align: center;
 	background-position: 30px 20px, 50% 50%;
 	background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
 	padding-bottom: 50px;
@@ -450,15 +450,15 @@ header .logo {
 header .logo path {
 	fill: rgba(0, 0, 0, 0.4);
 }
-header nav {
+nav.main {
 	display: inline-block;
 }
-header nav a {
+nav.main a {
 	display: inline-block;
 	padding: 0px 1em;
 	color: rgba(0, 0, 0, 0.7);
 }
-      header nav a:hover {
+      nav.main a:hover {
         color: black; }
   header h1 {
     text-align: center;
@@ -481,7 +481,7 @@ header nav a {
 @media (max-width: 640px) {
   header {
     background-position: 50% 20px, 50% 50%; }
-    header nav {
+    nav.main {
       float: none;
       text-align: center;
       padding-top: 90px; }
