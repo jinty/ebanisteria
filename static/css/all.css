@@ -356,12 +356,12 @@ hr {
 /* Links
  * ------------------------------------	 */
 a {
-  color: #284C80;
+  color: #000;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #e3c6b1; }
+  color: #666; }
 
 /* Selection colors (easy to forget)
  * ------------------------------------	 */
@@ -953,7 +953,7 @@ nav.main a {
   text-align: center; }
 
 .social-links {
-  max-width: 700px;
+  max-width: 200px;
   margin: 0px auto 50px;
   display: -webkit-box;
   display: -moz-box;
