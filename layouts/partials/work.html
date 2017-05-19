@@ -9,7 +9,14 @@
                 <label for="{{ .Params.folder }}">
 		    <a href="{{ .URL }}">
                     <div class="thumb-unit" data-folder="{{ .Params.folder }}">
-			    <img src="{{ .Params.thumb }}" alt="{{ .Params.titulo }}" />
+			    <img src="/img/proj/300-{{ .Params.imageslug }}_thumb.jpg"
+				 sizes="(max-width: 760px) 50vw, 221px"
+				 srcset="
+				 /img/proj/150-{{ .Params.imageslug }}_thumb.jpg 150w,
+				 /img/proj/300-{{ .Params.imageslug }}_thumb.jpg 300w,
+				 /img/proj/600-{{ .Params.imageslug }}_thumb.jpg 600w,
+				 /img/proj/900-{{ .Params.imageslug }}_thumb.jpg 900w"
+			    alt="{{ .Params.titulo }}" />
                     </div>
                     <div class="thumb-overlay">
                         <strong>{{ .Params.titulo }}</strong>

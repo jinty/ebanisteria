@@ -1,13 +1,10 @@
 +++
 titulo = "Cuna"
-slug = "cuna"
+imageslug = "cuna"
 type = "proyecto"
 +++
 
-![Mobiliario Interiores](/img/proj/900-cuna_1.gif)
-
-Imaginar algun texto sobre la Cuna.
-
-![Mobiliario Interiores](/img/proj/900-cuna_2.gif)
-![Mobiliario Interiores](/img/proj/900-cuna_3.gif)
-![Mobiliario Interiores](/img/proj/900-cuna_4.gif)
+{{< proj_img cuna_1 "Cuna" >}}
+{{< proj_img cuna_2 "Cuna" >}}
+{{< proj_img cuna_3 "Cuna" >}}
+{{< proj_img cuna_4 "Cuna" >}}

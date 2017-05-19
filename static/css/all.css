@@ -338,6 +338,7 @@ p {
 
 p > img {
 	margin: 2% 0%;
+	width: 100%
 }
 
 em {
@@ -687,12 +688,8 @@ nav.main a {
 	width: 23%;
 	cursor: pointer;
 }
-.thumb-container label .thumb-unit {
-	display: block;
-	overflow: hidden;
-}
 .thumb-container label .thumb-unit img {
-	display: block;
+	width: 100%;
 }
 @media screen and (max-width: 760px) {
 	.thumb-container label {
