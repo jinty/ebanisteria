@@ -1,6 +1,6 @@
 +++
-titulo = "Escritorio Mesa"
-imageslug = "escritorio-mesa"
+titulo = "Escaleras"
+imageslug = "escalera"
 type = "proyecto"
 +++
 

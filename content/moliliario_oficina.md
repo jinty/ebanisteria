@@ -1,6 +1,6 @@
 +++
-titulo = "Consola"
-imageslug = "consola"
+titulo = "Mobiliario Oficina"
+imageslug = "mobiliario_oficina"
 type = "proyecto"
 +++
 
