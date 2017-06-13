@@ -20,10 +20,12 @@
             <figcaption>
                 <strong class="client-name">{{ .name }}</strong>
                 <em class="client-title">{{ .title }}</em>
+		<div>
+		<a href="{{ .empresa_link }}"><strong class="client-company">{{ .empresa }}</strong></a>
+		</div>
             </figcaption>
         </figure>
         <div class="client-content">
-            <div class="client-quote-mark">{{ partial "icons/icon-quote-mark.html" . }}</div>
             {{ .quote | markdownify }}
         </div>
     </div>
@@ -35,15 +37,6 @@
         <div class="client-control-prev">{{ partial "icons/icon-prev.html" . }}</div>
     </div>
 
-    <div class="clients-logos">
-    {{ range $i, $e := .Site.Data.clients.list }}
-      	{{ if eq $i 0 }}
-       	<img class="client-logo active-client" src="img/clients/{{ .logo }}" align="{{ .logo }}">
-		{{ else }}
-    	<img class="client-logo" src="img/clients/{{ .logo }}" align="{{ .logo }}">
-       	{{ end }}
-    {{ end }}
-    </div>
 
 </section>
 
