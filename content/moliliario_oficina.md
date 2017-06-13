@@ -1,6 +1,6 @@
 +++
 titulo = "Mobiliario Oficina"
-imageslug = "mobiliario_oficina"
+imageslug = "oficina"
 type = "proyecto"
 +++
 
