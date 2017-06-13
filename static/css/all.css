@@ -289,7 +289,6 @@ td, th {
 h1, h2, h3, h4, h5, h6 {
   font-family: quicksand;
   text-transform: uppercase;
-  color: #333;
 }
 .gigantic {
   font-size: 6rem;
@@ -319,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 1.2rem;
-  max-width: 35em;
+  max-width: 45rem;
   margin: 0px auto;
   padding: 0 0 1em 0;
 }
@@ -395,10 +394,16 @@ svg {
   height: 100%;
   width: 100%; }
 
-h2, h3 {
-  color: #284C80;
+h2 {
+  color: #97171c;
   text-align: center;
   padding: 1.5em 0 0.5em; }
+
+h3 {
+  font-weight: bold;
+  max-width:45rem;
+  margin: 0px auto;
+}
 
 fieldset {
   padding: 0;
@@ -520,7 +525,7 @@ nav.main a {
     background: #e5eaee;
     border-radius: 50%; }
     .face-lockup [class^="icon-"] path {
-      fill: #284C80; }
+      fill: #97171c; }
     .face-lockup [class^="icon-"].icon-pencil {
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
@@ -568,7 +573,6 @@ nav.main a {
     .face-lockup [class^="icon-"] {
       margin: 10px 9%; } }
 .blurb {
-  text-align: center;
   font-weight: 300;
 }
 
@@ -590,7 +594,7 @@ nav.main a {
       display: inline-block;
       height: 14px;
       width: 14px;
-      background-color: #284C80;
+      background-color: #97171c;
       margin-right: 8px;
       border-radius: 50%; }
       .skill-lockup .skill-icons span:after {
@@ -685,14 +689,9 @@ nav.main a {
 	display: block;
 	float: left;
 	margin: 1%;
-	width: 23%;
+	width: 19%;
 	cursor: pointer;
-}
-.thumb-container label {
 	background-color: #c0c0c1;
-}
-
-.thumb-container label {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	padding-left: 2%;
@@ -765,7 +764,7 @@ nav.main a {
   position: relative;
   display: none; }
   .work-container h4, .work-container noscript h4 {
-    color: #284C80;
+    color: #97171c;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 2rem;
@@ -870,7 +869,7 @@ nav.main a {
     opacity: 0.5; }
     .clients-logos .client-logo.active-client {
       opacity: 1;
-      border-bottom: 4px solid #284C80; }
+      border-bottom: 4px solid #97171c; }
 
 .client-quote-mark {
   position: absolute;
@@ -881,7 +880,7 @@ nav.main a {
   z-index: -1;
   opacity: 0.3; }
   .client-quote-mark path {
-    fill: #284C80; }
+    fill: #97171c; }
 
 .client-controls {
   position: absolute;
@@ -896,7 +895,7 @@ nav.main a {
     margin-top: -20px;
     cursor: pointer; }
     .client-controls > div path {
-      fill: #284C80; }
+      fill: #97171c; }
   .client-controls .client-control-next {
     position: absolute;
     top: 50%;
@@ -920,7 +919,7 @@ nav.main a {
     margin: 0px 10px;
     cursor: pointer; }
     .clients-mobile-nav span.active-client {
-      border-color: #284C80; }
+      border-color: #97171c; }
 
 @media (max-width: 750px) {
   .clients-logos {
@@ -987,11 +986,11 @@ nav.main a {
   flex-wrap: wrap; }
   .social-links a {
     display: block;
-    border: 2px solid #284C80;
+    border: 2px solid #97171c;
     height: 50px;
     width: 50px;
     line-height: 50px;
-    color: #284C80;
+    color: #97171c;
     border-radius: 50%;
     font-size: 2rem;
     margin: 20px;
@@ -1004,7 +1003,7 @@ nav.main a {
       right: 0px;
       bottom: 0px;
       left: 0px;
-      border: 2px solid #284C80;
+      border: 2px solid #97171c;
       border-radius: 50%;
       margin: -2px;
       opacity: 1;
@@ -1022,7 +1021,7 @@ nav.main a {
 .bar {
 	width: 250px;
 	height: 0px;
-	border-top: 1px solid #284C80;
+	border-top: 1px solid #97171c;
 	margin: 0.5em auto 1em
 }
 
@@ -1039,7 +1038,7 @@ form {
   margin: 0 auto 100px;
   padding: 0 20px; }
   form input, form textarea {
-    border: 3px solid #284C80;
+    border: 3px solid #97171c;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1051,20 +1050,20 @@ form {
     font-size: 1.2rem; }
     form input:focus, form textarea:focus {
       outline: none;
-      border-color: #284C80; }
+      border-color: #97171c; }
   form textarea {
     height: 10em;
     resize: none; }
   form .submit-wrap {
     text-align: right; }
   form [type="submit"] {
-    background: #284C80;
+    background: #97171c;
     color: white;
     font-size: 1.3rem;
     text-transform: uppercase;
     width: 33%; }
     form [type="submit"]:hover {
-      background: #284C80; }
+      background: #97171c; }
   form .contact-info-group label {
     width: 50%;
     float: left;
