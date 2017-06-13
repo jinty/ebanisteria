@@ -1,6 +1,6 @@
 +++
 titulo = "Mobiliario Exterior"
-imageslug = "mobiliario_ext"
+imageslug = "mob ext"
 type = "proyecto"
 +++
 
