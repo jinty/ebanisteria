@@ -2,16 +2,12 @@
 title = "Opiniones"
 
 [[list]]
-    avatar = "face-aaroni.jpg"
-    name   = "Jose Alvaril"
-    title  = "Director de Deseño, OnToText Ind."
-    quote  = "**Ebanisteria Cordon es calidad de lo mas alto.** Estamos muy feliz con el proyecto que nos lleve a cabo."
+    avatar = "logomima"
+    name   = "Martí Sanz Ausàs"
+    title  = "Arquitecto, MIM-A."
+    quote  = "Carlos es riguroso, profesional, amable y trabajo; trabajar con él ha sido un placer."
     logo   = "logo1.png"
 
 [[list]]
-    avatar = "face-aaroni.jpg"
-    name   = "Pepe Gonzalez Esquerro"
-    title  = "Director de Listo, OnToText Ind."
-    quote  = "**Una experiencia inolvidable**"
-    logo   = "logo1.png"
+    
 
