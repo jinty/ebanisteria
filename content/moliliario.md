@@ -1,6 +1,6 @@
 +++
 titulo = "Muebles a Medida"
-imageslug = "mobiliario"
+imageslug = "Muebles medida"
 type = "proyecto"
 +++
 
