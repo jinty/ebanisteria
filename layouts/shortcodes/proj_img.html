@@ -1,4 +1,5 @@
-<p><img sizes="(max-width: 35em) 100vw, 35em" src="/img/proj/900-{{ index .Params 0 }}.jpg" alt="{{ index .Params 1 }}"
+<p><figure>
+<img sizes="(max-width: 35em) 100vw, 35em" src="/img/proj/900-{{ index .Params 0 }}.jpg" alt="{{ index .Params 1 }}"
 				 srcset="
 				 /img/proj/150-{{ index .Params 0 }}.jpg 150w,
 				 /img/proj/300-{{ index .Params 0 }}.jpg 300w,
@@ -6,4 +7,7 @@
 				 /img/proj/900-{{ index .Params 0 }}.jpg 900w,
 				 /img/proj/900-{{ index .Params 0 }}.jpg 1200w,
 				 /img/proj/900-{{ index .Params 0 }}.jpg 1800w"
-											    ></p>
+											    >
+<figcaption>{{ index .Params 2 }}</figcaption>
+</figure>
+</p>
