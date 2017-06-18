@@ -1,6 +1,17 @@
 {{ "<!-- Header section -->" | safeHTML }}
 <header id="header">
+	<figure>
+	<img sizes="100vw" src="/img/proj/900-CABECERA.jpg"
+					 srcset="
+					 /img/proj/150-CABECERA.jpg 150w,
+					 /img/proj/300-CABECERA.jpg 300w,
+					 /img/proj/600-CABECERA.jpg 600w,
+					 /img/proj/900-CABECERA.jpg 900w,
+					 /img/proj/1200-CABECERA.jpg 1200w,
+					 /img/proj/1800-CABECERA.jpg 1800w"
+												    >
+	</figure>
     {{ with .Site.Params.header.title }}<h1><span>{{ . }}</span></h1>{{ end }}
     {{ with .Site.Params.header.shortBio }}<p class="kicker">{{ . }}</p>{{ end }}
-    {{ partial "nav.html"  . }} 
+    {{ partial "nav.html"  . }}
 </header>
