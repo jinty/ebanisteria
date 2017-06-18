@@ -398,6 +398,10 @@ h2 {
   color: #97171c;
   text-align: center;
   padding: 1.5em 0 0.5em; }
+#form-title {
+  text-align: center;
+}
+
 
 h3 {
   font-weight: bold;
