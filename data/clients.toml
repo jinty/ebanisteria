@@ -9,3 +9,14 @@ title = "Opiniones"
       empresa_link    = "http://www.mim-a.com/"
     quote  = "Carlos es riguroso, profesional, amable y tranquilo; trabajar con él ha sido un placer."
     logo   = "logo1.png"
+    
+    avatar = "logofloc"
+    name   = "Jordi Floc"
+    title  = "Arquitecto"
+    empresa    = "FLOC Products"
+      empresa_link    = "http://flocbcn.es/web/"
+    quote  = "
+Nosotros como interioristas, hace ya años, que confiamos en el trabajo de Ebanisteria Cordón, 
+así como es sus acabados y la facilidad de construir cualquier elemento adaptandose a nuestro espacios proyectados.."
+    logo   = "logo1.png"
+
