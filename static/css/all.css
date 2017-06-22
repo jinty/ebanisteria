@@ -824,12 +824,15 @@ nav.main a {
       display: -moz-flex;
       display: -ms-flexbox;
       display: flex; }
-    .clients-belt .client-unit .client-face {
-      min-width: 300px;
-      text-align: center; }
+      .clients-belt .client-unit .client-face {
+	      margin-top: 0px;
+	      min-width: 300px;
+	      text-align: center;
+      }
       .clients-belt .client-unit .client-face img {
-        max-width: 100px;
-        border-radius: 50%; }
+	      max-width: 100px;
+	      display: inline-block;
+      }
       .clients-belt .client-unit .client-face .client-name {
         display: block;
         text-transform: uppercase;
