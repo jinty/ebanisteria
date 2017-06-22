@@ -15,16 +15,16 @@
     <div class="clients-belt">
     {{ range $i, $e := .Site.Data.clients.list }}
     <div class="client-unit {{ if eq $i 0 }}active-client{{ end }}">   <!-- CONDITIONAL CSS CLASS -->
-        <figure class="client-face">
+        <a href="{{ .empresa_link }}"><figure class="client-face">
             <img src="/img/proj/150-{{ .avatar }}.jpg" alt="client-face">
             <figcaption>
                 <strong class="client-name">{{ .name }}</strong>
                 <em class="client-title">{{ .title }}</em>
 		<div>
-		<a href="{{ .empresa_link }}"><strong class="client-company">{{ .empresa }}</strong></a>
+		<strong class="client-company">{{ .empresa }}</strong>
 		</div>
             </figcaption>
-        </figure>
+		</figure></a>
         <div class="client-content">
             {{ .quote | markdownify }}
         </div>

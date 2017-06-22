@@ -905,8 +905,10 @@ nav.main a {
   right: 0px;
   bottom: 0px;
   left: 0px;
+  pointer-events: none;
   z-index: 2; }
   .client-controls > div {
+  pointer-events: auto;
     height: 40px;
     width: 40px;
     margin-top: -20px;
